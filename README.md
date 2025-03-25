@@ -1,6 +1,5 @@
 # LaTeX Resume with 93% ATS Score
 
-![Resume Preview](preview.png) <!-- Add a screenshot of the resume here -->
 
 ## 📌 Overview
 This repository contains a **highly optimized LaTeX resume** that achieves a **93% ATS (Applicant Tracking System) compatibility score**. It is designed to maximize readability and keyword optimization while maintaining a professional and elegant design.
@@ -47,14 +46,12 @@ This repository contains a **highly optimized LaTeX resume** that achieves a **9
 - Stick to **standard fonts** (e.g., Times New Roman, Arial).
 - Keep it **concise and relevant**.
 
-## 📥 Download Resume Template
-Click [here](resume.tex) to download the LaTeX template.
 
 ## 🤝 Contributions
 Feel free to submit pull requests or open issues for improvements!
 
 ## 📩 Contact
 For any queries, reach out via:
-- **Email:** your.email@example.com
-- **LinkedIn:** [your-linkedin](https://linkedin.com/in/yourprofile)
-- **GitHub:** [your-github](https://github.com/yourusername)
+- **Email:** shreelfaldu2305@example.com
+- **LinkedIn:** [your-linkedin](https://linkedin.com/in/shreelfaldu)
+- **GitHub:** [your-github](https://github.com/shreelfaldu)
