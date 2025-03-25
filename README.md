@@ -53,5 +53,5 @@ Feel free to submit pull requests or open issues for improvements!
 ## 📩 Contact
 For any queries, reach out via:
 - **Email:** shreelfaldu2305@example.com
-- **LinkedIn:** [your-linkedin](https://linkedin.com/in/shreelfaldu)
-- **GitHub:** [your-github](https://github.com/shreelfaldu)
+- **LinkedIn:** [Shreel Faldu](https://linkedin.com/in/shreelfaldu)
+- **GitHub:** [shreelfaldu](https://github.com/shreelfaldu)
