@@ -1,0 +1,273 @@
+%-------------------------
+% Resume in Latex
+% Author : Shreel Faldu
+% Based off of: https://github.com/shreelfaldu
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+	{#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+	\item\small{
+    	{#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+	\begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+  	\textbf{#1} & \textbf{\small #2} \\
+  	\textit{\small#3} & \textit{\small #4} \\
+	\end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+	\item
+	\begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+  	\textit{\small#1} & \textit{\small #2} \\
+	\end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+	\item
+	\begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+  	\small#1 & \textbf{\small #2}\\
+	\end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+
+\begin{center}
+	{\Huge \scshape SHREEL FALDU} \\ \vspace{1pt}
+	Jamnagar, Gujrat \\ \vspace{1pt}
+	\small \raisebox{-0.1\height}Phone: +91 9499816451 ~ \href{shreel.faldu121124@marwadiuniversity.ac.in}{\raisebox{-0.2\height}Email: {shreel.faldu121124@marwadiuniversity.ac.in}} ~
+	\vspace{-8pt}
+\end{center}
+
+%-----------Professional Summary---------
+\section{Professional Summary}
+    \resumeSubHeadingListStart
+  	{As a passionate and skilled developer, I have gained valuable experience in creating visually appealing and highly functional solutions. My journey in development has been marked by a commitment to excellence and a drive to constantly enhance my skills.}
+  \resumeSubHeadingListEnd
+
+
+%-----------EDUCATION-----------
+\section{Education}
+\resumeSubHeadingListStart
+	\resumeSubheading
+  	{Marwadi University}{July 2023 - June 2026}
+  	{Bachelor of Technology - Computer Engineering; CGPA: 7.05}{Gujrat, India}
+  \resumeSubHeadingListEnd
+  \vspace{-15pt}
+  \resumeSubHeadingListStart
+	\resumeSubheading
+  	{Marwadi University}{July 2020 - June 2023}
+  	{Diploma Engineering - Computer Engineering;  CGPA: 7.34}{Gujrat, India}
+  \resumeSubHeadingListEnd
+  
+  
+
+  
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+	\small{\item{
+ 	\textbf{Languages}{: C, C++, Python, JavaScript (ES6+), HTML, CSS, SQL  } \\  \vspace{3pt}
+
+ 	\textbf{Technologies/Frameworks}{: React.js,  Node.js, TensorFlow, OpenCV, Librosa } \\ \vspace{3pt}
+        \textbf{Tools}{: Git, GitHub, Jupyter Notebook, Visual Studio Code, Figma, Adobe Photoshop, Adobe Illustrator  }\\ \vspace{3pt}
+        \textbf{Database}{: MySQL, MongoDB, Firebase  }
+	}}
+ \end{itemize}
+ % \vspace{-16pt}
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+	\resumeSubheading
+  	{Graphic Designer Intern}{May 2022 - July 2022}
+  	{\textbf{Redlio} (Full-time) (On Site)\href{https://drive.google.com/file/d/1SWdW-F-6Hgqeu0veqRsAaCgNv92LNXJo/view?usp=sharing}{\textbf{ (Certificate)}}}{Ahemdabad, Gujrat}
+  	\resumeItemListStart
+    	\resumeItem{Created engaging visual content, including logos, social media graphics, and marketing materials. }
+    	\resumeItem{\textbf{Branding \& UI Design: }Designed brand identities and improved UI for web and mobile application }
+            \resumeItem{\textbf{Adobe Suite Figma: }Utilized Photoshop, Illustrator, and Figma to craft high-quality graphics and prototypes. }
+	\resumeItemListEnd
+ \vspace{2pt}
+        \resumeSubheading
+  	{Web Development Intern}{May 2024 - July 2024}
+  	{\textbf{WorkEasy Coworking} (Full-time) (On Site)\href{https://drive.google.com/file/d/1pTSCTfcFmuF_aIUC0LycB4etyXLbGTCl/view?usp=sharing}{\textbf{ (Certificate)}}}{Rajkot, Gujrat}
+  	\resumeItemListStart
+    	\resumeItem{\textbf{Lead Web Development:} Led the development of web applications, improving scalability by 30\% and reducing load times by 40\%}
+    	\resumeItem{\textbf{Full-Stack Development: }Built and maintained frontend and backend systems using modern web technologies. }
+            \resumeItem{\textbf{API \& Database Optimization:} Developed RESTful APIs and optimized database queries for improved efficiency. }
+	\resumeItemListEnd
+    
+  \resumeSubHeadingListEnd
+% \vspace{-16pt}
+
+  
+%-----------PROJECTS-----------
+\section{Selected Projects}
+	\vspace{-5pt}
+	\resumeSubHeadingListStart
+	\resumeProjectHeading
+      	{\textbf{Crypto Circle} $|$ \emph{Currency Conversion, Authentication, Web Development }$|$ \href{https://github.com/Shreelfaldu/Crypto-Website}{\textbf{Link}}}{November 2022}
+      	\resumeItemListStart
+        	\resumeItem{Demo model website for converting currency to cryptocurrency with India-based conversion logic. Implemented an authentication system that increased security by 20\% reducing unauthorized access incidents.}
+        	\resumeItem{\textbf{Tech:} HTML, CSS, PHP, MySQL}
+                \resumeItem{\textbf{Software:} Adobe Illustrator, Figma}
+      	\resumeItemListEnd
+	\vspace{-13pt}
+  	\resumeProjectHeading
+      	{\textbf{Tour India} $|$ \emph Travel Booking, MERN Stack, Web Development $|$ \href{https://github.com/Shreelfaldu/Tour-india}{\textbf{Link}}}{April 2023}
+      	\resumeItemListStart
+        	\resumeItem{A travel website built with the MERN stack for seamless tour package browsing and booking. Implemented user authentication, dynamic search, and real-time booking updates.}
+                \resumeItem{\textbf{Tech:} MongoDB, React, Node.js}
+                \resumeItem{\textbf{Software: }Adobe Illustrator, Figma}
+      	\resumeItemListEnd
+        \vspace{-13pt}
+  	\resumeProjectHeading
+      	{\textbf{Speech Authentication} $|$ \emph Cancelable Biometrics, Deep Learning, Security $|$ \href{https://github.com/Shreelfaldu/Speech_Aurthentication}{\textbf{Link}}}{In Progress}
+      	\resumeItemListStart
+        	\resumeItem{A biometric authentication system integrating Cancelable Biometrics to enhance security in speech-based authentication. Implemented feature extraction, transformation-based cancelable biometric techniques, and authentication mechanisms for improved privacy and robustness.}
+                \resumeItem{\textbf{Tech:} Python, TensorFlow, Librosa, OpenCV}
+            \resumeItemListEnd
+	\resumeSubHeadingListEnd
+% \vspace{-15pt}
+
+%-----------Certification-----------
+\section{Certification}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+            \resumeItemListStart
+            \resumeItem{\textbf{AWS Academy: }A course covering fundamental AWS cloud concepts, including cloud computing, security, networking, and storage, equipping learners with core cloud skills. \href{https://drive.google.com/file/d/1iq0E8CPSki_hJY7ClYT2_6qWJkMkrkgf/view?usp=sharing}{\textbf{[Certificate]}}}
+            \resumeItem{\textbf{CCNAv7: Introduction to Networks: }A foundational course from Cisco Networking Academy, covering network configuration, IPv4/IPv6 addressing, OSI model, network security, and troubleshooting small networks. \href{https://drive.google.com/file/d/1_IEyxBQWN65uI_czhONt5LY9QOETupq1/view?usp=sharing}{\textbf{[Certificate]}}}
+            \resumeItem{\textbf{NDG Linux Essentials: }A foundational course from Cisco Networking Academy, covering Linux operating system fundamentals, command-line navigation, security, file permissions, and system administration basics, preparing learners for the Linux Essentials Professional Development Certificate (LPI). \href{https://drive.google.com/file/d/1K7rsGVzupwHV1LGXMnYStDb6bkIqka6a/view?usp=sharing}{\textbf{[Certificate]}}}
+            \resumeItemListEnd
+ \end{itemize}
+%-----------Industrial Visit-----------
+\section{Industrial Visit}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+	\resumeItemListStart
+            \resumeItem{\textbf{EinfoChip }- Ahmedabad}
+    	\resumeItem{\textbf{Antier }- Chandigarh}
+  	\resumeItemListEnd
+            \resumeItem{}
+ \end{itemize}
+
+%-----------Soft Skills------------
+\section{Soft Skills}
+\begin{itemize}[leftmargin=0.15in, label={}]
+	\resumeItemListStart
+            \resumeItem{Leadership \& Team Management}
+    	\resumeItem{Problem-Solving \& Critical Thinking}
+            \resumeItem{Adaptability \& Quick Learning}
+            \resumeItem{Project Management}
+  	\resumeItemListEnd
+            \resumeItem{}
+\end{itemize}
+
+%-----------Achievements-----------
+\section{Achievements}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+	\resumeItemListStart
+            \resumeItem{First Rank in Tech Jumanji: Secured 1st place in the Tech Jumanji competition at MU Fest 2024, showcasing technical expertise and problem-solving skills.\href{https://www.linkedin.com/posts/shreelfaldu_achievement-techjumanji-mufest2024-activity-7175719517396885504-0IrB?utm_source=share&utm_medium=member_desktop&rcm=ACoAADwip3IB7vOm64ltVT1IxwY2MYWySMFYlo4}{\textbf{ [Certificate]}}}
+    	\resumeItem{College Chair of Young Indians (Yi): Leading student initiatives under Young Indians (Yi), a movement for youth leadership and nation-building.\href{https://www.linkedin.com/posts/shreelfaldu_youngindians-yiyuva-leadership-activity-7309184482509570049-Ii1r?utm_source=share&utm_medium=member_desktop&rcm=ACoAADwip3IB7vOm64ltVT1IxwY2MYWySMFYlo4}{\textbf{ [Certificate]}}}
+    	\resumeItem{AIU West Zone Photography Rank Holder (2025): Recognized for excellence in photography at the AIU West Zone competition.\href{https://www.linkedin.com/posts/shreelfaldu_photography-aiucompetition-marwadiuniversity-activity-7283383163190431745-0oAu?utm_source=share&utm_medium=member_desktop&rcm=ACoAADwip3IB7vOm64ltVT1IxwY2MYWySMFYlo4}{\textbf{ [Certificate]}}}
+  	\resumeItemListEnd
+            \resumeItem{}
+ \end{itemize}
+ 
+%-----------Profile Links-----------
+\section{Profile Links}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+	\resumeItemListStart
+    	\resumeItem {\href{https://github.com/shreelfaldu}{Github}}
+            \resumeItem {\href{https://www.linkedin.com/in/shreelfaldu/}{Linkedin}}
+  	\resumeItemListEnd
+ \end{itemize}
+ % \vspace{-16pt}
+%
+
+
+\end{document}
