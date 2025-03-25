@@ -14,14 +14,14 @@ This repository contains a **highly optimized LaTeX resume** that achieves a **9
 ## 🛠️ How to Use
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/yourusername/latex-resume.git
+   git clone https://github.com/shreelfaldu/ATS-Friendly-Resume.git
    ```
 2. **Edit the LaTeX File** (`resume.tex`)
    - Replace placeholder content with your own details.
 3. **Compile the Resume**
    - Use Overleaf (Online) or compile locally with:
      ```bash
-     pdflatex resume.tex
+     Resume_Shreel.tex
      ```
 4. **Download and Apply** 🚀
 
